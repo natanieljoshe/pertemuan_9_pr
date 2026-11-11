@@ -11,7 +11,7 @@
             android:icon="@drawable/outline_account_circle_24"
             android:title="PROFILE" />
         <item
-            android:id="@+id/setingFragment"
+            android:id="@+id/settingFragment"
             android:icon="@drawable/outline_ads_click_24"
             android:title="SETTING" />
         <item
@@ -20,7 +20,8 @@
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/login"
-                        android:title="Login"/>
+                        android:title="Login" />
+                </group>
             </menu>
         </item>
 
