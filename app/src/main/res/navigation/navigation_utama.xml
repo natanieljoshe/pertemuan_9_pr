@@ -8,25 +8,25 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.navigationprojects.HomeFragment"
-        android:label="HomeFragment"
+        android:label="home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.navigationprojects.ProfileFragment"
-        android:label="ProfileFragment"
+        android:label="profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/settingFragment"
         android:name="com.example.navigationprojects.SettingFragment"
-        android:label="SettingFragment"
+        android:label="setting"
         tools:layout="@layout/fragment_setting" />
 
     <fragment
         android:id="@+id/detailProfileFragment"
         android:name="com.example.navigationprojects.DetailProfileFragment"
-        android:label="DetailProfileFragment"
+        android:label="fragment_detail_profile"
         tools:layout="@layout/fragment_detail_profile" />
 
 </navigation>
